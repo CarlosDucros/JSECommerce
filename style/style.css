@@ -1,0 +1,212 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ body {
+     background-color: #dbc7ea;
+ }
+
+ .navbar {
+     background-color: #c5a4de;
+ }
+
+ #para {
+     display: none;
+ }
+
+ .card {
+     transition: all 0.5 ease;
+     cursor: pointer;
+     box-shadow: 0px 0px 6px -4px rgba(0, 0, 0, 0.75);
+     border-radius: 10px;
+ }
+
+ .card {
+     width: 18rem;
+ }
+
+ .card:hover {
+     box-shadow: 0px 0px 51px -36px rgba(0, 0, 0, 1);
+ }
+
+ .navbar-toggler {
+     border: none;
+ }
+
+ .navbar-toggler:focus {
+     box-shadow: none;
+ }
+
+ .carritoIcon {
+     border: none;
+     cursor: pointer;
+ }
+
+ .carritoIcon:hover {
+     box-shadow: none;
+ }
+
+ .carrito {
+     position: fixed;
+     top: 0;
+     right: 0;
+     width: 600px;
+     min-height: 100vh;
+     padding: 20px;
+     background: #ded1e8;
+     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+     overflow-y: auto;
+     height: 100%;
+
+ }
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     /* display: none; <- Crashes Chrome on hover */
+     -webkit-appearance: none;
+     margin: 0;
+     /* <-- Apparently some margin are still there even though it's hidden */
+ }
+
+ #carrito {
+     display: none;
+     z-index: 50;
+ }
+
+ .carritoTitulo {
+     text-align: center;
+     font-weight: 600;
+     margin-top: 2rem;
+ }
+
+ .h-fit-content {
+     height: fit-content;
+ }
+
+ .mapa {
+     margin: 15px;
+     background: url(../img/mapa.png);
+     width: 80vh;
+     height: 500px;
+     background-repeat: no-repeat;
+
+ }
+
+ .formulario {
+     text-align: center;
+ }
+
+ .formulario form {
+     text-align: center;
+     padding: 5px;
+ }
+
+ .formulario form button {
+     background-color: #c3b0d3;
+     border-color: #ad8ec6;
+     width: 60px;
+     height: 30px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+ }
+
+ .formulario form p {
+     padding: 10px;
+ }
+
+ .formulario form p label {
+     display: block;
+     float: center;
+ }
+
+ .formulario form p input,
+ .formulario form p textarea {
+     justify-content: space-between;
+     border-radius: 5px;
+     background-color: #c3b0d3;
+     width: 400px;
+     height: 45px;
+     border-style: solid;
+     border-color: #ad8ec6;
+     border-width: 1px;
+     margin-top: 15px;
+     padding-left: 10px;
+     margin-bottom: 20px;
+     padding-top: 3px;
+ }
+
+ .formulario form p input placeholder,
+ .formulario form p textarea placeholder {
+     color: black;
+ }
+
+ .formulario form p textarea {
+     height: 130px;
+     margin-top: 10px;
+     padding-top: 15px;
+ }
+
+ footer {
+     background: #1b2a4e;
+     min-height: 100px;
+ }
+
+ footer p {
+     color: #f3f3f3;
+     text-align: center;
+ }
+
+ #iconos i {
+     font-size: 26px;
+     padding: 0 8px;
+     color: #f3f3f3;
+ }
+
+ #local {
+     background: white;
+     padding-bottom: 300px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .wrapper {
+     width: 50%;
+     margin-left: 100px;
+     padding-top: 150px;
+ }
+
+ @media (max-width:768px) {
+
+     #principal,
+     #quienessomos {
+         width: 90% !important;
+     }
+
+     .imagenesInicio {
+         width: 100% !important;
+         text-align: center;
+     }
+ }
+
+ @media(max-width: 576px) {
+     .imagenWrap {
+         flex-wrap: wrap;
+         justify-content: center !important;
+     }
+ }
+
+ @media(max-width:1200px) {
+     #local {
+         flex-wrap: wrap;
+         padding-top: 30px;
+     }
+
+     .wrapper {
+         width: 90%;
+         margin: auto;
+         padding-top: 50px;
+     }
+ }

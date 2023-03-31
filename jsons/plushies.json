@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gary",
+        "src": "../img/gary.png",
+        "desc": "Gary de IB",
+        "precio": 9.99
+    },
+    {
+        "id": 2,
+        "nombre": "Niko",
+        "src": "../img/niko.png",
+        "desc": "Niko de OneShot",
+        "precio": 4.99
+    },
+    {
+        "id": 3,
+        "nombre": "Piplup",
+        "src": "../img/piplup.png",
+        "desc": "Piplup de Pokemon",
+        "precio": 4.99
+    },
+    {
+        "id": 4,
+        "nombre": "Lamb",
+        "src": "../img/Lamb.png",
+        "desc": "Lamb de Cult of the Lamb",
+        "precio": 19.99
+    },
+    {
+        "id": 5,
+        "nombre": "Ralsei",
+        "src": "../img/ralsei.png",
+        "desc": "Ralsei de Deltarune",
+        "precio": 19.99
+    },
+    {
+        "id": 6,
+        "nombre": "Chopper",
+        "src": "../img/chopper.png",
+        "desc": "Chopper de One Piece",
+        "precio": 9.99
+    },{
+        "id": 7,
+        "nombre": "Chopper",
+        "src": "../img/chopper.png",
+        "desc": "Chopper de One Piece",
+        "precio": 9.99
+    },{
+        "id": 8,
+        "nombre": "Chopper",
+        "src": "../img/chopper.png",
+        "desc": "Chopper de One Piece",
+        "precio": 9.99
+    },{
+        "id": 9,
+        "nombre": "Chopper",
+        "src": "../img/chopper.png",
+        "desc": "Chopper de One Piece",
+        "precio": 9.99
+    }
+]
